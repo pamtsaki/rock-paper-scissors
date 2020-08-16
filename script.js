@@ -52,12 +52,12 @@ function computerPlay(listOfChoices){
     return listOfChoices[choice];
 }
 
-const playerSelection = "paper";
-//const playerSelection = prompt("Players choice: ");
-
+let playerSelection;
 let scorePlayer = 0;
 let scoreComputer = 0;
+
 function game(){
+    playerSelection = prompt("Choose rock,paper,scissors: ");
     const result = playRound(playerSelection, computerPlay(choices));
     if (result == "tie"){
         console.log('Tie')
