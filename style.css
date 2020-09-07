@@ -1,0 +1,101 @@
+body {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  height: 100vh;
+  margin: 0;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+button {
+  display: inline-block;
+  width: 100px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 0.1em solid black;
+  box-sizing: border-box;
+  border-radius: 0.3em;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12pt;
+  color: black;
+  transition: all 0.3s;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.main-section {
+  width: 60%;
+  margin: auto;
+}
+
+.button-section {
+  padding: 20px;
+}
+
+.score-section {
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: monospace;
+}
+
+.inner-button-section {
+  padding: 20px;
+}
+
+.score-text {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 0;
+  font-size: 26pt;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.caption {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  font-size: 9pt;
+  text-align: center;
+}
+
+.score-versus {
+  display: flex;
+}
+
+.buttons-grid {
+  margin-top: 3em;
+  padding: 10px 20px 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  grid-auto-rows: minmax(50px, auto);
+  justify-items: center;
+}
+
+.player-score {
+  padding: 20px 20px 20px 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.computer-score {
+  padding: 20px 20px 20px 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.final-score-text {
+  text-align: center;
+  font-family: monospace;
+}

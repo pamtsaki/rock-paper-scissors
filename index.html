@@ -4,7 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock-Paper-Scissors</title>
-    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="main-section">
+      <div class="button-section">
+        <div class="inner-button-section">
+          <div class="header-section">
+            <h2 class="header">Lets play! Choose one:</h2>
+            <p class="caption">this is a first to 5!</p>
+          </div>
+          <div class="buttons-grid">
+            <img src="img/rock.png" alt="" srcset="" />
+            <img src="img/scissors.png" alt="" srcset="" />
+            <img src="img/paper.png" alt="" srcset="" />
+            <button id="rock" class="bouncy" type="button">ROCK</button>
+            <button id="paper" class="bouncy" type="button">PAPER</button>
+            <button id="scissors" class="bouncy" type="button">SCISSORS</button>
+          </div>
+        </div>
+      </div>
+      <div class="score-section">
+        <p class="score-text">Please play a round first.</p>
+        <div class="score-versus">
+          <div class="player-score">
+            <p id="player-score">Player score</p>
+          </div>
+          <div class="computer-score">
+            <p id="computer-score">Computer score</p>
+          </div>
+        </div>
+        <div class="score-final"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
